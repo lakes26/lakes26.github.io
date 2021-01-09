@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/lakes26.github.io/static/css/main.13ee2ef2.chunk.css",
-    "main.js": "/lakes26.github.io/static/js/main.6bac5c70.chunk.js",
-    "main.js.map": "/lakes26.github.io/static/js/main.6bac5c70.chunk.js.map",
-    "runtime-main.js": "/lakes26.github.io/static/js/runtime-main.e2b32e4d.js",
-    "runtime-main.js.map": "/lakes26.github.io/static/js/runtime-main.e2b32e4d.js.map",
-    "static/js/2.c624bf75.chunk.js": "/lakes26.github.io/static/js/2.c624bf75.chunk.js",
-    "static/js/2.c624bf75.chunk.js.map": "/lakes26.github.io/static/js/2.c624bf75.chunk.js.map",
-    "index.html": "/lakes26.github.io/index.html",
-    "static/css/main.13ee2ef2.chunk.css.map": "/lakes26.github.io/static/css/main.13ee2ef2.chunk.css.map",
-    "static/js/2.c624bf75.chunk.js.LICENSE.txt": "/lakes26.github.io/static/js/2.c624bf75.chunk.js.LICENSE.txt",
-    "static/media/logo.bf7ada19.png": "/lakes26.github.io/static/media/logo.bf7ada19.png"
+    "main.css": "/static/css/main.13ee2ef2.chunk.css",
+    "main.js": "/static/js/main.6bac5c70.chunk.js",
+    "main.js.map": "/static/js/main.6bac5c70.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5b070e21.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5b070e21.js.map",
+    "static/js/2.c624bf75.chunk.js": "/static/js/2.c624bf75.chunk.js",
+    "static/js/2.c624bf75.chunk.js.map": "/static/js/2.c624bf75.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.13ee2ef2.chunk.css.map": "/static/css/main.13ee2ef2.chunk.css.map",
+    "static/js/2.c624bf75.chunk.js.LICENSE.txt": "/static/js/2.c624bf75.chunk.js.LICENSE.txt",
+    "static/media/logo.bf7ada19.png": "/static/media/logo.bf7ada19.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e2b32e4d.js",
+    "static/js/runtime-main.5b070e21.js",
     "static/js/2.c624bf75.chunk.js",
     "static/css/main.13ee2ef2.chunk.css",
     "static/js/main.6bac5c70.chunk.js"
