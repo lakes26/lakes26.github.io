@@ -30,10 +30,10 @@ export class BigLogo extends Component {
         return (
             <img
                 onMouseEnter={(e) => {
-                    console.log(this.setState({hover: true}));
+                    this.setState({hover: true});
                 }}
                 onMouseLeave={(e) => {
-                    console.log(this.setState({hover: false}));
+                    this.setState({hover: false});
                 }}
                 src={logo}
                 alt='logo'

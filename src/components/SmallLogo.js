@@ -23,17 +23,19 @@ export class SmallLogo extends Component {
             )
         } 
         return (
-            <img
-                onMouseEnter={(e) => {
-                    console.log(this.setState({hover: true}));
-                }}
-                onMouseLeave={(e) => {
-                    console.log(this.setState({hover: false}));
-                }}
-                src={logo}
-                alt='logo'
-                style={this.getLogoStyle()}
-            />
+            <a href={this.props.path}>
+                <img
+                    onMouseEnter={(e) => {
+                        console.log(this.setState({hover: true}));
+                    }}
+                    onMouseLeave={(e) => {
+                        console.log(this.setState({hover: false}));
+                    }}
+                    src={logo}
+                    alt='logo'
+                    style={this.getLogoStyle()}
+                />
+            </a> 
         )
     }
 }
@@ -41,14 +43,14 @@ export class SmallLogo extends Component {
 const logoStyle = {
     width: '40px', 
     height: '40px',
-    margin: '3px 30px',
+    margin: '3px 13px',
     transition: 'all 0.25s',
 }
 
 const logoStyleHover = {
     width: '46px', 
     height: '46px',
-    margin: '0px 27px',
+    margin: '0px 10px',
     transition: 'all 0.25s',
     cursor: 'pointer',
 }

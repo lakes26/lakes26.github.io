@@ -1,22 +1,40 @@
 import './App.css';
 import React from "react";
-import { BrowserRouter as Router} from "react-router-dom";
+import { 
+  BrowserRouter as Router, 
+  Switch,
+  Route,
+} from "react-router-dom";
 
 import NavBar from './components/NavBar'
-import SmallLogo from './components/SmallLogo'
 import BigLogo from './components/BigLogo'
+import DropdownButton from './components/DropdownButton'
 
 function App() {
   return (
     <Router>
       <div style={mainStyle}>
         <NavBar />
-        <div style={centerContainer}>
-          <div style={{color: "white", marginBottom: "20px"}}>
-            Still in Development.
-          </div>
-          <BigLogo />
-        </div>
+        <Switch>
+          <Route path="/about">
+            <div>
+              About.
+            </div>
+          </Route>
+          <Route path="/resume">
+            <div>
+              Resume.
+            </div>
+          </Route>
+          <Route path="/">
+            <div style={centerContainer}>
+              <div style={{color: "white", marginBottom: "20px"}}>
+                Still in Development.
+              </div>
+              <BigLogo />
+            </div>
+          </Route>
+        </Switch>
       </div>
     </Router>
   );
@@ -38,7 +56,7 @@ const mainStyle = {
   width: '100%',
   height: '100%',
   paddingTop: '80px',
-  overflowY: 'hidden',
+  
   backgroundColor: 'rgb(0,0,20)',
 }
 

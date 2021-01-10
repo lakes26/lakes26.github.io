@@ -9,25 +9,27 @@ export class NavBar extends Component {
     render() {
         return (
             <nav style={navStyle}>
-                <SmallLogo />
+                <SmallLogo path='/'/>
                 <ul style={listStyle}>
-                    <li>
-                        <NavLink className='navlink' href='/about' text='About Me' />
+                    <li style={liStyle}>
+                        <NavLink className='navlink' href='/about' text='About' />
                     </li>
-                    <li>
+                    <li style={liStyle}>
                         <NavLink className='navlink' href='/projects' text='Projects' />
                     </li>
-                    <li>
-                        <NavLink className='navlink' href='/resume' text='Resumé' />
-                    </li>
-                    <li>
-                        <NavLink className='navlink' href='/contact' text='Contact Me' />
+                    <li style={liStyle}>
+                        <NavLink className='navlink' href='/contact' text='Contact' />
                     </li>
                 </ul>
                 <SmallLogo hide={true}/>
             </nav>
         )
     }
+}
+
+const liStyle = {
+    marginLeft: '2%',
+    marginRight: '2%',
 }
 
 const navStyle = {
@@ -51,6 +53,7 @@ const listStyle = {
     justifyContent: 'center',
     alignItems: 'center',
 
+    width: '100%',
     fontSize: '20px',
     color: 'white',
 }
